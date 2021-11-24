@@ -1,0 +1,131 @@
+.logo__link
+	text-decoration: none
+	color: #25282d
+	font-size: 32px
+	display: flex
+	align-items: center
+.shape__logo
+	padding: 4px
+	border: 1px solid #e7dfca
+	border-radius: 13px
+	margin-left: 18px
+.logo__span
+	color: #3e84da
+.navbar
+	display: flex
+	align-items: center
+	min-height: 13.3125rem
+.nav
+	margin-left: auto
+	display: flex
+	justify-content: end
+	align-items: center
+	+media(992px)
+		+abs-full($bg: #fff)
+		+flex($dir: column, $main: center, $cross: center)
+		transform: scale(0)
+		transition: 0.4s
+		&.active
+			transform: scale(1)
+.nav__link
+	text-decoration: none
+	color: #25282d
+	font-size: 19px
+	cursor: pointer
+	margin-right: 4.125rem
+	+media(992px)
+		margin-bottom: 30px
+		margin-right: 0
+	&:hover
+		padding-bottom: 3px
+		border-bottom: 	2px solid #3e84da
+.logo__btn
+	background-color: #ffffff00
+	padding: 1.1875rem 2rem
+	border-radius: 27px
+	border: 1px solid #3e84da
+	margin: 0 15px 0 15px
+	font-weight: 300
+	font-family: "Roboto"
+	transition: 0.4s
+	cursor: pointer
+	+media(992px)
+		z-index: 1
+	+media(768px)
+		display: none
+	&:hover
+		background-color: #4699ff
+		color: #fff
+.hero__title
+	+adp-font(92, 32)
+	color: #25282d
+	font-weight: 250
+	font-family: "Roboto"
+	margin-bottom: 0
+.hero__span
+	background-color: #3e84da
+	color: #fff
+.hero--block
+	display: block
+.header__hero
+	min-height: 700px
+	display: grid
+	+media(768px)
+		min-height: 600px
+	.container
+		min-height: 100%
+		display: grid
+		max-width: 1920px
+		.hero
+			max-width: 100%
+			max-height: 100%
+			+flex($dir: column, $cross: center, $main: end)
+			.cursor__box
+				margin-top: 95px
+				margin-bottom: 78px
+				+flex($dir: column, $cross: center)
+				.cursor__text
+					margin-top: 1.1875rem
+					font-size: 16px
+					color: #25282d
+					font-weight: 300
+					font-family: "Roboto"
+.header-mid
+	min-height: 1854px
+	background-color: #3e84da
+	color: #fff
+	.container-mid
+		max-width: 1300px
+		margin: auto
+		.flex-container
+			max-width: 100%
+			+flex($dir: column, $cross: center)
+		.main
+			width: 883px
+			padding-top: 200px
+			margin-bottom: 197px
+		.main__title
+			font-size: 48px
+			color: #ffffff
+			font-weight: 300
+			font-family: "Roboto"
+			text-align: center
+		.main__text
+			font-size: 35px
+			color: #ffffff9a
+			font-weight: 100
+			font-family: "Roboto"
+			text-align: center
+	.mid-border 
+		border: 2px solid #3673bd
+		border-left: none
+		border-bottom: none
+		border-right: none
+		.border__text
+			margin: auto
+			padding: 0 1rem
+			font-size: 35px
+			color: #ffffff
+			font-weight: 300
+			font-family: "Roboto"
+			text-align: center
