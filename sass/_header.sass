@@ -44,7 +44,7 @@
 	padding: 1.1875rem 2rem
 	border-radius: 27px
 	border: 1px solid #3e84da
-	margin: 0 15px 0 15px
+	margin: 0 0 0 15px
 	font-weight: 300
 	font-family: "Roboto"
 	transition: 0.4s
@@ -129,3 +129,28 @@
 			font-weight: 300
 			font-family: "Roboto"
 			text-align: center
+	.row-box
+		margin-top: 40px
+		display: grid
+		grid-template-columns: 272px 272px 272px 272px
+		justify-content: center
+		.box__line
+			border: 2px solid #346EB6
+			border-left: none
+			border-bottom: none
+			min-width: 272px
+			min-height: 168px
+			+flex($cross: center, $main: center)
+			&:nth-child(4n)
+				border-right: none
+			&:nth-child(5)
+				border-left: none
+				border-bottom: none
+			&:nth-child(9)
+				border-left: none
+				border-bottom: none
+			&:nth-child(13)
+				border-left: none
+				border-bottom: none
+			&:nth-child(-n+4)
+				border-top: none
