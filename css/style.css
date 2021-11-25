@@ -437,4 +437,63 @@ div.hamburger > .inner {
   flex-direction: column;
 }
 
+.header-bottom {
+  background-color: #ECE6D8;
+  min-height: 979px;
+}
+
+.container-bottom {
+  max-width: 58.5rem;
+  margin: auto;
+}
+.container-bottom .here__title {
+  margin-top: 181px;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #25282D;
+  text-align: center;
+}
+.container-bottom .here__text {
+  color: #25282D;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.125rem;
+  text-align: center;
+}
+.container-bottom .s-block {
+  display: block;
+}
+.container-bottom .here__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-bottom .here__title-bottom {
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 195px;
+  margin-bottom: 25px;
+  color: #25282D;
+}
+.container-bottom .header__footer {
+  background-color: #fffff;
+}
+.container-bottom .footer__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 121px;
+  max-width: 100%;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #25282d;
+  font-size: 32px;
+}
+
+.ms {
+  margin-left: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
