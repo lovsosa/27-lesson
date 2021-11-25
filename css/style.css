@@ -212,7 +212,7 @@ div.hamburger > .inner {
   border-bottom: 2px solid #3e84da;
 }
 
-.logo__btn {
+.btn {
   background-color: #ffffff00;
   padding: 1.1875rem 2rem;
   border-radius: 27px;
@@ -224,16 +224,16 @@ div.hamburger > .inner {
   cursor: pointer;
 }
 @media screen and (max-width: 992px) {
-  .logo__btn {
+  .btn {
     z-index: 1;
   }
 }
 @media screen and (max-width: 768px) {
-  .logo__btn {
+  .btn {
     display: none;
   }
 }
-.logo__btn:hover {
+.btn:hover {
   background-color: #4699ff;
   color: #fff;
 }
@@ -374,6 +374,20 @@ div.hamburger > .inner {
 }
 .header-mid .row-box .box__line:nth-child(-n+4) {
   border-top: none;
+}
+.header-mid .mid__title {
+  text-align: center;
+  font-family: "Roboto";
+}
+.header-mid .mid__btn {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.header-mid .start-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
